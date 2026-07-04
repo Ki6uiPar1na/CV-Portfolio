@@ -146,10 +146,13 @@ function renderCerts(rows) {
 
   rows.forEach(r => {
     const card = el('div', 'cert-card');
-    const icon = el('div', 'cert-icon', txt(r.abbreviation));
+    const img = el('img', 'cert-image');
+    img.src = r.image;
+    img.alt = r.title;
+    img.loading = 'lazy';
     const h3 = el('h3', '', txt(r.title));
     const p = el('p', '', txt(`${r.issuer} — ${r.date}`));
-    card.append(icon, h3, p);
+    card.append(img, h3, p);
     grid.appendChild(card);
   });
 

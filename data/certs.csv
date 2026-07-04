@@ -1,4 +1,4 @@
-abbreviation,title,issuer,date
-eJPT,Junior Penetration Tester,INE,Mar 2026
-CTI,"Mastering Cyber Threat Intelligence for SOC Analysts",SOCRadar,Jul 2025
-BTJA,Blue Team Junior Analyst,"Security Blue Team",Jul 2025
+abbreviation,title,issuer,date,image
+eJPT,Junior Penetration Tester,INE,Mar 2026,gallery/placeholder.svg
+CTI,"Mastering Cyber Threat Intelligence for SOC Analysts",SOCRadar,Jul 2025,gallery/placeholder.svg
+BTJA,Blue Team Junior Analyst,"Security Blue Team",Jul 2025,gallery/placeholder.svg

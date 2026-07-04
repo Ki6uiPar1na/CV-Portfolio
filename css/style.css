@@ -409,15 +409,12 @@ section h2 {
   gap: .5rem;
 }
 
-.cert-icon {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: .7rem;
-  font-weight: 700;
-  color: var(--accent3);
-  background: rgba(255, 215, 0, .1);
-  padding: .2rem .6rem;
-  border-radius: 4px;
-  width: fit-content;
+.cert-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: var(--bg-card);
 }
 
 .cert-card h3 {

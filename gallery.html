@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Ki6uiPar1na</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="logo">// <a href="index.html" style="color:inherit;text-decoration:none;">Ki6uiPar1na</a></span>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="gallery-header">
+  <h1><span class="section-num">◆</span> Gallery</h1>
+  <p class="gallery-sub">Contest achievements, certifications, and memories</p>
+</section>
+
+<section id="gallery-controls">
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="CTF">CTF</button>
+    <button class="filter-btn" data-filter="Programming">Programming</button>
+    <button class="filter-btn" data-filter="Certification">Certifications</button>
+  </div>
+  <div class="gallery-count" id="gallery-count"></div>
+</section>
+
+<section id="gallery-grid"></section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+  <span id="lb-close">&times;</span>
+  <img id="lb-img" src="" alt="">
+  <div id="lb-caption"></div>
+  <span id="lb-prev">&#10094;</span>
+  <span id="lb-next">&#10095;</span>
+</div>
+
+<footer>
+  <p>// <span>Md. Khairul Islam</span> — 2026</p>
+</footer>
+
+<script src="js/csv.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
